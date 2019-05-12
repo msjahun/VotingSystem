@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Vs.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Vs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vs.Core.dll": {}
+        }
       }
     }
   },
@@ -678,11 +688,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Vs.Core/1.0.0": {
+      "type": "project",
+      "path": "../Vs.Core/Vs.Core.csproj",
+      "msbuildProject": "../Vs.Core/Vs.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Vs.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -714,7 +730,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj": {
+              "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
