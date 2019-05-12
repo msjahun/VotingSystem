@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Vs.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Vs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vs.Core.dll": {}
+        }
+      },
+      "Vs.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Vs.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vs.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vs.Data.dll": {}
+        }
       }
     }
   },
@@ -678,11 +701,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Vs.Core/1.0.0": {
+      "type": "project",
+      "path": "../Vs.Core/Vs.Core.csproj",
+      "msbuildProject": "../Vs.Core/Vs.Core.csproj"
+    },
+    "Vs.Data/1.0.0": {
+      "type": "project",
+      "path": "../Vs.Data/Vs.Data.csproj",
+      "msbuildProject": "../Vs.Data/Vs.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Vs.Core >= 1.0.0",
+      "Vs.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -714,7 +749,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj": {
+              "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj"
+            },
+            "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj": {
+              "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
