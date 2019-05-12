@@ -4452,6 +4452,9 @@
       "Vs.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Vs.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Vs.Data.dll": {}
         },
@@ -4462,6 +4465,10 @@
       "Vs.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Vs.Core": "1.0.0",
+          "Vs.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Vs.Services.dll": {}
         },

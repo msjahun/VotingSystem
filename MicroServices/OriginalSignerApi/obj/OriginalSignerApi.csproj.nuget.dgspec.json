@@ -81,7 +81,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj": {
+                "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -133,7 +137,14 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj": {
+                "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj"
+              },
+              "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj": {
+                "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
