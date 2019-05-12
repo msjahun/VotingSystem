@@ -1,0 +1,14 @@
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\bin\Debug\netcoreapp2.2\RecipientApi.deps.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\bin\Debug\netcoreapp2.2\RecipientApi.runtimeconfig.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\bin\Debug\netcoreapp2.2\RecipientApi.runtimeconfig.dev.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\bin\Debug\netcoreapp2.2\RecipientApi.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\bin\Debug\netcoreapp2.2\RecipientApi.pdb
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.csprojAssemblyReference.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.csproj.CoreCompileInputs.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.RazorAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.RazorAssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.AssemblyInfoInputs.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.RazorTargetAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\RecipientApi\obj\Debug\netcoreapp2.2\RecipientApi.pdb

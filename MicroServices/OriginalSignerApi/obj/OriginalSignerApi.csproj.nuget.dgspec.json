@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DC\\source\\repos\\VotingSystem\\MicroServices\\OriginalSignerApi\\OriginalSignerApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj",
+        "projectName": "Vs.Core",
+        "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj",
+        "packagesPath": "C:\\Users\\DC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj",
+        "projectName": "Vs.Data",
+        "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj",
+        "packagesPath": "C:\\Users\\DC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Services\\Vs.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Services\\Vs.Services.csproj",
+        "projectName": "Vs.Services",
+        "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Services\\Vs.Services.csproj",
+        "packagesPath": "C:\\Users\\DC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\DC\\source\\repos\\VotingSystem\\MicroServices\\OriginalSignerApi\\OriginalSignerApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DC\\source\\repos\\VotingSystem\\MicroServices\\OriginalSignerApi\\OriginalSignerApi.csproj",
+        "projectName": "OriginalSignerApi",
+        "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\MicroServices\\OriginalSignerApi\\OriginalSignerApi.csproj",
+        "packagesPath": "C:\\Users\\DC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\MicroServices\\OriginalSignerApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj": {
+                "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Core\\Vs.Core.csproj"
+              },
+              "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj": {
+                "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Data\\Vs.Data.csproj"
+              },
+              "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Services\\Vs.Services.csproj": {
+                "projectPath": "C:\\Users\\DC\\source\\repos\\VotingSystem\\Libraries\\Vs.Services\\Vs.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

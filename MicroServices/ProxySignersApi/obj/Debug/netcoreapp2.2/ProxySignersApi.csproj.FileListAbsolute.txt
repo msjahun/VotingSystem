@@ -1,0 +1,14 @@
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\bin\Debug\netcoreapp2.2\ProxySignersApi.deps.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\bin\Debug\netcoreapp2.2\ProxySignersApi.runtimeconfig.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\bin\Debug\netcoreapp2.2\ProxySignersApi.runtimeconfig.dev.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\bin\Debug\netcoreapp2.2\ProxySignersApi.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\bin\Debug\netcoreapp2.2\ProxySignersApi.pdb
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.csprojAssemblyReference.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.csproj.CoreCompileInputs.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.RazorAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.RazorAssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.AssemblyInfoInputs.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.RazorTargetAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\ProxySignersApi\obj\Debug\netcoreapp2.2\ProxySignersApi.pdb

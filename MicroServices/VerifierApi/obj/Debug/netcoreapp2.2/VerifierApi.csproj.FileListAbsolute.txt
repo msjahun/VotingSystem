@@ -1,0 +1,13 @@
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\bin\Debug\netcoreapp2.2\VerifierApi.deps.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\bin\Debug\netcoreapp2.2\VerifierApi.runtimeconfig.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\bin\Debug\netcoreapp2.2\VerifierApi.runtimeconfig.dev.json
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\bin\Debug\netcoreapp2.2\VerifierApi.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\bin\Debug\netcoreapp2.2\VerifierApi.pdb
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.csproj.CoreCompileInputs.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.RazorAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.RazorAssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.AssemblyInfoInputs.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.RazorTargetAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\VerifierApi\obj\Debug\netcoreapp2.2\VerifierApi.pdb
