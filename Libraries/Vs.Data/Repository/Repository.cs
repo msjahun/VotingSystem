@@ -1,0 +1,65 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Vs.Core;
+
+namespace Vs.Data.Repository
+{
+
+    public class Repository<T> : IRepository<T> where T : BaseEntity
+    {
+        private readonly VotingSystemContext _dbContext;
+
+        public Repository(VotingSystemContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public virtual IEnumerable<T> Include(string path)
+        {
+            return _dbContext.Set<T>().Include(path).AsEnumerable();
+        }
+
+        public virtual T GetById(long id)
+        {
+            return _dbContext.Set<T>().Find(id);
+        }
+
+        public virtual IEnumerable<T> List()
+        {
+            return _dbContext.Set<T>().AsEnumerable();
+        }
+
+
+
+        public virtual IEnumerable<T> List(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
+        {
+            return _dbContext.Set<T>()
+                   .Where(predicate)
+                   .AsEnumerable();
+        }
+
+        public long Insert(T entity)
+        {
+            _dbContext.Set<T>().Add(entity);
+            _dbContext.SaveChanges();
+
+            long id = entity.Id;
+            return id;
+        }
+
+        public void Update(T entity)
+        {
+            _dbContext.Entry(entity).State = EntityState.Modified;
+            _dbContext.SaveChanges();
+        }
+
+        public void Delete(T entity)
+        {
+            _dbContext.Set<T>().Remove(entity);
+            _dbContext.SaveChanges();
+        }
+    }
+}

@@ -1,0 +1,8 @@
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Vs.Core.deps.json
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Vs.Core.dll
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Vs.Core.pdb
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.csproj.CoreCompileInputs.cache
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.AssemblyInfoInputs.cache
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.dll
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.pdb

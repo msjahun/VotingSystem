@@ -3,6 +3,12 @@ C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\OriginalSignerApi.runtimeconfig.dev.json
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\OriginalSignerApi.dll
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\OriginalSignerApi.pdb
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\Vs.Core.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\Vs.Data.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\Vs.Services.dll
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\Vs.Core.pdb
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\Vs.Data.pdb
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\bin\Debug\netcoreapp2.2\Vs.Services.pdb
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.csprojAssemblyReference.cache
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.csproj.CoreCompileInputs.cache
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.RazorAssemblyInfo.cache
@@ -10,5 +16,6 @@ C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.AssemblyInfoInputs.cache
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.AssemblyInfo.cs
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.RazorTargetAssemblyInfo.cache
+C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.csproj.CopyComplete
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.dll
 C:\Users\DC\source\repos\VotingSystem\MicroServices\OriginalSignerApi\obj\Debug\netcoreapp2.2\OriginalSignerApi.pdb

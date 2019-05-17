@@ -1,0 +1,14 @@
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Data.deps.json
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Data.dll
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Data.pdb
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Core.dll
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Core.pdb
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.csprojAssemblyReference.cache
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.csproj.CoreCompileInputs.cache
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.AssemblyInfoInputs.cache
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.csproj.CopyComplete
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.dll
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\obj\Debug\netcoreapp2.2\Vs.Data.pdb
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Data.runtimeconfig.json
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Data\bin\Debug\netcoreapp2.2\Vs.Data.runtimeconfig.dev.json
