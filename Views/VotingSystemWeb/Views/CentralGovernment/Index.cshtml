@@ -1,0 +1,88 @@
+﻿@using VotingSystemWeb.Models
+@model  CentralGovernmentVm
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Central government administration</h2>
+
+<h3>Candidates list</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Candidate name</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var candidate in Model.CandidatesList)
+        {
+
+
+            <tr>
+                <th scope="row">@candidate.Id</th>
+                <td>@candidate.Name</td>
+                <td><button type="button" class="btn btn-primary" disabled>Edit</button></td>
+                <td><button type="button" class="btn btn-danger" disabled>Delete</button></td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+
+
+<h3>Election state</h3>
+<table class="table">
+    <thead>
+
+       
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Election Stage/phase</th>
+            <th scope="col">Current stage</th>
+            <th scope="col">Status</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var stage in Model.ElectionStages)
+        {
+            <tr>
+                <th scope="row">@stage.Id</th>
+                <td>@stage.StageName</td>
+                <td>
+                    @if (stage.IsCurrentStage)
+                    {
+                        <i class="fa fa-check text-success"></i>
+                    }
+                    else
+                    {
+                        @if (stage.Status != 0) {
+                        <i class="fa fa-check text-secondary"></i>
+                         }
+                    }
+
+                </td>
+                <td>
+                    @if (stage.Status != 0)
+                    {
+                        @_sharedService.ResolveCurrentStateById(stage.Status)
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="GoToNextState" asp-controller="CentralGovernment" class="btn btn-primary">Go to Next Stage</a>
+<button type="button" class="btn btn-outline-danger" disabled>End Election</button>
+<a asp-action="ResetStates" asp-controller="CentralGovernment" class="btn btn-danger float-right">Reset elections</a>
+<a asp-action="DecryptAllVotes" asp-controller="CentralGovernment" class="btn btn-primary ">Decrypt all votes</a>
+
+

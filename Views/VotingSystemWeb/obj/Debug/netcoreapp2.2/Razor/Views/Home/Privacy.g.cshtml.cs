@@ -23,8 +23,18 @@ using VotingSystemWeb.Models;
 
 #line default
 #line hidden
+#line 5 "C:\Users\DC\source\repos\VotingSystem\Views\VotingSystemWeb\Views\_ViewImports.cshtml"
+using Vs.Services.UserServices;
+
+#line default
+#line hidden
+#line 8 "C:\Users\DC\source\repos\VotingSystem\Views\VotingSystemWeb\Views\_ViewImports.cshtml"
+using Vs.Services.SharedServices;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d34096cb1e727789f71dcc9229b86c93de994fe1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3d0c1c4a6fb412e6dad1c3ff8336d85caa79bf92", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
@@ -51,6 +61,10 @@ Write(ViewData["Title"]);
             EndContext();
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public ISharedService _sharedService { get; private set; }
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public IUsersService _userService { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

@@ -1,0 +1,47 @@
+﻿@using VotingSystemWeb.Models
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="">
+
+    <div style="color:red;" asp-validation-summary="All"></div>
+    <form class="form-signin" role="form" asp-action="Login" asp-controller="Login" method="post">
+        <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+
+        <label for="inputEmail" class="sr-only">Username</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="Username" asp-for="UserName" required autofocus>
+
+        <label for="FirstName" class="sr-only">FirstName</label>
+        <input type="text" id="FirstName" class="form-control" placeholder="Firstname" asp-for="Firstname" required>
+
+        <label for="LastName" class="sr-only">LastName</label>
+        <input type="text" id="LastName" class="form-control" placeholder="LastName" asp-for="LastName" required>
+
+
+        <label for="CitizenShipNumber" class="sr-only">CitizenShipNumber</label>
+        <input type="text" id="CitizenShipNumber" class="form-control" placeholder="CitizenShipNumber" asp-for="CitizenshipNumber" required>
+
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" asp-for="Password" placeholder="Password" required>
+
+
+        <label for="inputPassword" class="sr-only">Confirm Password</label>
+        <input type="password" id="inputPassword" class="form-control" asp-for="ConfirmPassword" placeholder="Confirm Password" required>
+
+
+
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+    </form>
+</div>

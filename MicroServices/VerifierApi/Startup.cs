@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Vs.Data;
 using Vs.Data.Repository;
+using Vs.Services;
 
 namespace VerifierApi
 {
@@ -26,9 +27,10 @@ namespace VerifierApi
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services, IHostingEnvironment env)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 

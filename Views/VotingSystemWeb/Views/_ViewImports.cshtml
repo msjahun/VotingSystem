@@ -1,3 +1,9 @@
 ﻿@using VotingSystemWeb
 @using VotingSystemWeb.Models
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@using Vs.Services.UserServices
+@inject IUsersService _userService
+
+@using Vs.Services.SharedServices
+@inject  ISharedService _sharedService

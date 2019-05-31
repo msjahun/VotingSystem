@@ -1,0 +1,146 @@
+﻿@using VotingSystemWeb.Models
+@model BulletinBoardVm
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model == null)
+{
+
+    <div class="alert alert-warning" role="alert">
+        Bulletin Board data not found
+    </div>
+
+}
+else
+{
+
+
+
+
+    @if (Model.bBProxyPhaseList != null)
+    {
+
+
+        <h3>Proxy phase</h3>
+        <ul>
+            @foreach (var proxy in Model.bBProxyPhaseList)
+            {
+                <li>proxy @proxy.ProxyId @proxy.ProxyName registered</li>
+            }
+
+
+
+        </ul>
+    }
+
+
+    @if (Model.bBRegistrationPhaseList != null)
+    {
+
+
+        <h3>Registration phase</h3>
+        <ul>
+
+            @foreach (var registeredUser in Model.bBRegistrationPhaseList)
+            {
+                <li>@registeredUser.UserId @registeredUser.UserName @registeredUser.FirstName @registeredUser.LastName  is registered to vote</li>
+            }
+
+        </ul>
+    }
+
+
+    @if (Model.bBVotingPhaseList != null)
+    {
+
+
+        <h3>Voting phase</h3>
+        <ul>
+            @foreach (var votes in Model.bBVotingPhaseList)
+            {
+                <li>Vote received from @votes.UserId @votes.UserName @votes.FirstName @votes.LastName</li>
+            }
+
+
+
+        </ul>
+    }
+
+
+
+    @if (Model.bBCountingPhaseList != null)
+    {
+
+
+        <h3>Counting Encrypted phase</h3>
+
+        <ul>
+
+            @foreach (var item in Model.bBCountingPhaseList)
+            {
+                <li>@item.EncryptedUsernameVotedCandidate encypted vote received</li>
+            }
+
+
+
+
+        </ul>
+
+    }
+
+
+    @if (Model.bBCountingPhaseList2 != null)
+    {
+
+
+        <h3>Counting Decrypted phase</h3>
+
+        <ul>
+
+            @foreach (var item in Model.bBCountingPhaseList2)
+            {
+                <li>@item.EncryptedUsernameVotedCandidate vote counted</li>
+            }
+
+
+
+
+        </ul>
+
+    }
+
+    @if (Model.bBCandidatesNoVotesList != null)
+    {
+
+
+        <h3>Voting result Summary</h3>
+        <h4>Candidates and number of votes</h4>
+        <ul>
+
+            @foreach (var candidate in Model.bBCandidatesNoVotesList)
+            {
+                <li>@candidate.CandidateName with: @candidate.NumberOfVotes votes</li>
+            }
+
+
+
+
+        </ul>
+    }
+
+    @if (Model.bBVotingParticipantsSummary != null)
+    {
+
+
+        <h4>Voting participants summary</h4>
+        <ul>
+            <li>Number of people who registered for the election: @Model.bBVotingParticipantsSummary.NumberOfRegisteredVoters</li>
+            <li>Number of people who voted: @Model.bBVotingParticipantsSummary.NumberOfPeopleWhoVoted</li>
+            <li>Number of people who didn't vote: @Model.bBVotingParticipantsSummary.NumberOfPeoleWhoDidntVote</li>
+        </ul>
+    }
+
+}

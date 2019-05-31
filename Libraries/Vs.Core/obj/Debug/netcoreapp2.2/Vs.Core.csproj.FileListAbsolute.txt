@@ -1,8 +1,12 @@
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Vs.Core.deps.json
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Vs.Core.dll
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Vs.Core.pdb
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.csprojAssemblyReference.cache
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.csproj.CoreCompileInputs.cache
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.AssemblyInfoInputs.cache
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.csproj.CopyComplete
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.dll
 C:\Users\DC\source\repos\VotingSystem\Libraries\Vs.Core\obj\Debug\netcoreapp2.2\Vs.Core.pdb

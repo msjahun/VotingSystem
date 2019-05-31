@@ -1,0 +1,10 @@
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\bin\Debug\netcoreapp2.2\ConsoleCodeTest.deps.json
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\bin\Debug\netcoreapp2.2\ConsoleCodeTest.runtimeconfig.json
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\bin\Debug\netcoreapp2.2\ConsoleCodeTest.runtimeconfig.dev.json
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\bin\Debug\netcoreapp2.2\ConsoleCodeTest.dll
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\bin\Debug\netcoreapp2.2\ConsoleCodeTest.pdb
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\obj\Debug\netcoreapp2.2\ConsoleCodeTest.csproj.CoreCompileInputs.cache
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\obj\Debug\netcoreapp2.2\ConsoleCodeTest.AssemblyInfoInputs.cache
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\obj\Debug\netcoreapp2.2\ConsoleCodeTest.AssemblyInfo.cs
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\obj\Debug\netcoreapp2.2\ConsoleCodeTest.dll
+C:\Users\DC\source\repos\VotingSystem\ConsoleCodeTest\obj\Debug\netcoreapp2.2\ConsoleCodeTest.pdb

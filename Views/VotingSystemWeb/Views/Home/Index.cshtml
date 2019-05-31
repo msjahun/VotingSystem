@@ -2,7 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Voting system that gurantees privacy, anonymity, fairness and strong encryption</p>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+    <main role="main" class="inner cover">
+        <h1 class="cover-heading">Welcome to Voting system project.</h1>
+        <p class="lead">With this project you are guranteed to Vote for potential candidates, this project also comes with privacy, security and anonymity baked in</p>
+        <p class="lead">
+            <a asp-controller="Session" asp-action="Index" class="btn btn-lg btn-primary">Click here to goto Voting Session</a>
+        </p>
+
+        <p class="lead">
+            <a asp-controller="BulletinBoard" asp-action="Index" class="btn btn-lg btn-outline-danger">Click here to View Bulletin Board</a>
+        </p>
+
+        @*<p class="lead">
+            <a asp-controller="CentralGovernment" asp-action="Index" class="btn btn-lg btn-success">Click here to goto Central government administration</a>
+        </p>*@
+    </main>
+
+
 </div>

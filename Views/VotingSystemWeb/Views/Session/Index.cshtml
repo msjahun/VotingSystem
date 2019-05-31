@@ -1,0 +1,141 @@
+﻿@using VotingSystemWeb.Models
+@model SessionVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+
+@if (Model.RegistrationPhase != null)
+{
+
+
+    <h1>Registration for : General election</h1>
+
+    @if (Model.RegistrationPhase.HasAgreedToTermsAndConditions == false && Model.RegistrationPhase.RegistrationSessionBegan &&! Model.RegistrationPhase.RegistrationHasEnded && !Model.RegistrationPhase.IsRegisteredForElection )
+    {<p>Disclaimer:Any public communication made by a political committee — including communications that do not expressly advocate the election or defeat of a clearly identified federal candidate or solicit a contribution</p>
+        <p>All elections will be fair and the process will be secure and transperent - Central government</p>
+
+        <form  method="post" id="addForm" asp-controller="Session" asp-action="RegisterForVotingAsync">
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio34" name="customRadio" class="custom-control-input" checked>
+                <label class="custom-control-label" for="customRadio34">I agree with the terms & conditions</label>
+            </div>
+
+
+
+            <input class="btn btn-primary" type="submit" value="Register for elections">
+        </form>
+
+    }
+
+    @if (Model.RegistrationPhase.IsRegisteredForElection && Model.RegistrationPhase.RegistrationSessionBegan)
+    {
+
+        <div class="alert alert-success" role="alert">
+            You have successfully registered for the election
+        </div>
+
+    }
+
+    @if (Model.RegistrationPhase.RegistrationHasEnded && Model.RegistrationPhase.RegistrationSessionBegan)
+    {
+
+        <div class="alert alert-danger" role="alert">
+            Voters registration period has already ended
+        </div>
+    }
+
+
+
+
+    @if (Model.RegistrationPhase.RegistrationSessionBegan == false)
+    {
+        <div class="alert alert-warning" role="alert">
+            Registration Session has not began
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        Registration Session not found
+    </div>
+
+
+}
+
+@if (!Model.RegistrationPhase.IsRegisteredForElection && Model.RegistrationPhase.RegistrationHasEnded)
+{
+    <div class="alert alert-danger" role="alert">
+        You did not register for this election this year, so you are not eligible to vote.
+    </div>
+
+}
+
+
+
+    @if (Model.VotingPhase != null)
+    {
+
+        <h1>Voting phase</h1>
+
+        @if (Model.VotingPhase.VotingHasBegan && !Model.VotingPhase.VotingSessionHasEnded&& Model.VotingPhase.UserHasVotedForCandidate == false && Model.RegistrationPhase.IsRegisteredForElection && Model.RegistrationPhase.RegistrationHasEnded)
+        {
+            <h3>Select candidates</h3>
+            <form  method="post" id="addForm" asp-controller="Session" asp-action="VoteForCandidateAsync">
+
+                @foreach (var candidate in Model.CandidatesList)
+                {
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio-@candidate.Id" name="CandidateId" value="@candidate.Id" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio-@candidate.Id">@candidate.Name</label>
+                    </div>
+
+                }
+
+                <input class="btn btn-primary" type="submit" value="Submit">
+                <input class="btn btn-primary" type="reset" value="Reset">
+            </form>
+
+        }
+        @if (Model.VotingPhase.UserHasVotedForCandidate &&Model.RegistrationPhase.IsRegisteredForElection && Model.RegistrationPhase.RegistrationHasEnded)
+        {
+            <div class="alert alert-success" role="alert">
+                You have successfully voted for a candidate, you can view election results when election ends
+            </div>
+        }
+
+
+
+        @if (Model.VotingPhase.VotingSessionHasEnded == true)
+        {
+            <div class="alert alert-danger" role="alert">
+                Voting session has ended already
+            </div>
+        }
+
+
+        @if (Model.VotingPhase.VotingHasBegan== false && Model.VotingPhase.VotingSessionHasEnded==false)
+        {
+
+            <div class="alert alert-warning" role="alert">
+                Voting Session has not began
+            </div>
+        }
+
+
+    }
+
+
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            Voting data not found
+        </div>
+    }
+
+
