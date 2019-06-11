@@ -15,7 +15,7 @@ Run the project and on your browser from visual studio.
 first visit this link
 visit this links<br/>
 
-https://localhost.com:xxxx/seed/seedCandidates
+https://localhost.com:xxxx/seed/seedCandidates <br/>
 https://localhost.com:xxxx/seed/seedstates
 <br/>
 to seed data
