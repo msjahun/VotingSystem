@@ -4,7 +4,8 @@ Edit the connection string in VotingSystemWeb in appsettings.json
 
 Go to your visual studio powershell console,
 select current project to Vs.Data
-type update database
+type <br/>
+"update-database"
 
 
 visit this links
