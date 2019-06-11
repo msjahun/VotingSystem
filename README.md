@@ -10,7 +10,7 @@ type in the console <br/>
 "update-database"
 
 <br/>
-Run the project and on your browser from visual studio.
+Run the project VotingSytemWeb and on your browser from visual studio.
 <br/>
 first visit this link
 visit this links<br/>
